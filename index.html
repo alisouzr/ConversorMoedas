@@ -9,5 +9,14 @@
         src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
         class="page-logo" alt=""><br><br>
     <h3 class="tipoMoeda">Qual moeda você quer converter?</h3>
-
+    <select id="tipoMoeda">
+        <option value="USD">Dolar</option>
+        <option value="EUR">Euro</option>
+        <option value="IENE">Iene</option>
+        <option value="BTC">Bitcon</option>
+    </select><br><br>
+    <h3 style="color:white;" class="moeda">Insira o valor para converter</h3>
+    <input type="number" id="valor" size="2" /><br>
+    <button type="submit" onclick="Converter()">Converter</button>
+    <h2 id="resultado"></h2>
 </div>
