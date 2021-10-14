@@ -1,0 +1,9 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://pa1.narvii.com/6352/f360b6c74075347b27270f875713c53d6fb360c1_hq.gif");
+    background-color: #000000;
+    background-size: 200vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
