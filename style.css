@@ -7,3 +7,19 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
